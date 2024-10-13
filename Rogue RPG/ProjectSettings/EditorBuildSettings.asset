@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Main Scenes/StartMenu.unity
+    guid: c8e2473667b6df74a96ab945fdb2b182
+  - enabled: 1
+    path: Assets/Scenes/Main Scenes/Plains.unity
+    guid: f8a5399301e36b44eb3161198aca6d79
+  - enabled: 1
+    path: Assets/Scenes/Main Scenes/Ice.unity
+    guid: 92ee14fb945f3a0428409224328c1902
+  - enabled: 1
+    path: Assets/Scenes/Main Scenes/Lava.unity
+    guid: 86b86dfa902fd444282b46dfa9e62404
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/Scenes/Main Scenes/DeathMenu.unity
+    guid: 7f435a4d358a60543becfbd6de572e17
+  - enabled: 0
+    path: Assets/Scenes/Village.unity
+    guid: 6c2e9f7011611364589d37ab354a4fb3
+  - enabled: 1
+    path: Assets/Scenes/Main Scenes/Village.unity
+    guid: 67a739265a5fd454496476c5fbc31427
+  m_configObjects: {}

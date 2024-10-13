@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3065729469260547344
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3065729469260547350}
+  - component: {fileID: 3065729469260547345}
+  m_Layer: 0
+  m_Name: TMV-Plains
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3065729469260547350
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3065729469260547344}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3065729469260547345
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3065729469260547344}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 953a3b64a4d71764a91c2051adbdc3fe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  floorTilemap: {fileID: 0}
+  wallTilemap: {fileID: 0}
+  floorTile: {fileID: 11400000, guid: a1315e5154fdaaf44af3fda2642d0e57, type: 2}
+  wallTop: {fileID: 11400000, guid: 726b0e44cc017344a840439c46ac0385, type: 2}
+  wallSideRight: {fileID: 11400000, guid: 33d003c53b3baec4dac7499e0ec341c6, type: 2}
+  wallSideLeft: {fileID: 11400000, guid: d93b07b5d4cbc334aa39dbd154766409, type: 2}
+  wallBottom: {fileID: 11400000, guid: 7441e00c1170e384183d53ab07837046, type: 2}
+  wallFull: {fileID: 11400000, guid: 3e319fd58ea16c74a9dce19632fcc053, type: 2}
+  wallInnerCornerDownLeft: {fileID: 11400000, guid: ac9a667f66c0d4d46b484f80e8d9d220, type: 2}
+  wallInnerCornerDownRight: {fileID: 11400000, guid: 609661cf27bd43d47bf428531529f22e, type: 2}
+  wallInnerCornerUpLeft: {fileID: 11400000, guid: 6f36495a0475edc468e2a7de98496a1b, type: 2}
+  wallInnerCornerUpRight: {fileID: 11400000, guid: cdc338f9856f90943bbaf6d2ec46d873, type: 2}
+  wallDiagonalCornerDownRight: {fileID: 11400000, guid: e22c4b561f0aeb24a9796891abbe9ae4, type: 2}
+  wallDiagonalCornerDownLeft: {fileID: 11400000, guid: 18c2250b70f095b49a3556833703a179, type: 2}
+  wallDiagonalCornerUpRight: {fileID: 11400000, guid: 1623cb9a2e1ec944b8900a2dcae0a671, type: 2}
+  wallDiagonalCornerUpLeft: {fileID: 11400000, guid: 8056bd4c1a206354791698d64e01f266, type: 2}
+  wallFullEightDirections: {fileID: 11400000, guid: 3e319fd58ea16c74a9dce19632fcc053, type: 2}
+  wallUtileUp: {fileID: 11400000, guid: 360ebc5e43551db4e8ac9086b7f90c80, type: 2}
+  wallUtileRight: {fileID: 11400000, guid: 0ec050a7dd0ad0f49b7178f44917132d, type: 2}
+  wallUtileDown: {fileID: 11400000, guid: cc8c38d2db6c0234c97fb2f33ca313f4, type: 2}
+  wallUtileLeft: {fileID: 11400000, guid: 5022bfd1f60473148a2214c413b1ce22, type: 2}
+  wallTopandBottom: {fileID: 11400000, guid: b79766759a47a3548a3dcb7d8154e30a, type: 2}
+  wallRightandLeft: {fileID: 11400000, guid: 09d28343bc42aec4b834a21961bd6d1e, type: 2}
+  wallTopLeftBottomRight: {fileID: 11400000, guid: 1ff5712ae4f1fd74589fe0665545f943, type: 2}
+  wallTopRightBottomLeft: {fileID: 11400000, guid: 67f09c7685072984c9f25f2dce53a2e3, type: 2}

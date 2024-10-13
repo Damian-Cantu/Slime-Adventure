@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6178285341934686136
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6178285341934686138}
+  - component: {fileID: 6178285341934686137}
+  m_Layer: 0
+  m_Name: TMV-Ice
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6178285341934686138
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6178285341934686136}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6178285341934686137
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6178285341934686136}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 953a3b64a4d71764a91c2051adbdc3fe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  floorTilemap: {fileID: 0}
+  wallTilemap: {fileID: 0}
+  floorTile: {fileID: 11400000, guid: 9f13fc1d108427649adcde380576786a, type: 2}
+  wallTop: {fileID: 11400000, guid: 4774e45b3a48309479a27cac34591cb8, type: 2}
+  wallSideRight: {fileID: 11400000, guid: 0ab8c1cabb5051042a1a944f1efca0d7, type: 2}
+  wallSideLeft: {fileID: 11400000, guid: f461a6bf352376f40a9516f16ff18497, type: 2}
+  wallBottom: {fileID: 11400000, guid: e874ea9b8f3ae0b47b3b3d36671343de, type: 2}
+  wallFull: {fileID: 11400000, guid: 2f9100dd36cd9594995a55d0f4d9a955, type: 2}
+  wallInnerCornerDownLeft: {fileID: 11400000, guid: c34f5a448c3a7834fb2353bbbca4bff6, type: 2}
+  wallInnerCornerDownRight: {fileID: 11400000, guid: 478379fe0c7af6a4da6c4a4251233fc3, type: 2}
+  wallInnerCornerUpLeft: {fileID: 11400000, guid: 7dec65068e2531c499b936e3dc4689ab, type: 2}
+  wallInnerCornerUpRight: {fileID: 11400000, guid: bec3a970f7897f8479b0b953af8bdb47, type: 2}
+  wallDiagonalCornerDownRight: {fileID: 11400000, guid: 4a96d1dd00f24f84dac5f5fac8cb6c42, type: 2}
+  wallDiagonalCornerDownLeft: {fileID: 11400000, guid: 4f44bb93fcbf5f24e877b18a9d8506a9, type: 2}
+  wallDiagonalCornerUpRight: {fileID: 11400000, guid: ea40463c498412b4fbaf61a224e2979d, type: 2}
+  wallDiagonalCornerUpLeft: {fileID: 11400000, guid: 5df44f6101bd9704d8b003728e22a024, type: 2}
+  wallFullEightDirections: {fileID: 11400000, guid: 2f9100dd36cd9594995a55d0f4d9a955, type: 2}
+  wallUtileUp: {fileID: 11400000, guid: 81c6a89ba4ca0984db6f5543e7b58e88, type: 2}
+  wallUtileRight: {fileID: 11400000, guid: 41a9b22c338181343a77034099d6c21a, type: 2}
+  wallUtileDown: {fileID: 11400000, guid: 5bd2c261b10677945a5d0bc14ec5fe47, type: 2}
+  wallUtileLeft: {fileID: 11400000, guid: 2fbbdda7e9841124780a32b861bf3250, type: 2}
+  wallTopandBottom: {fileID: 11400000, guid: 38f6dc0dfff95204094905d27bb49d21, type: 2}
+  wallRightandLeft: {fileID: 11400000, guid: 9787c0c20e1edfe47a5b98f28acffae3, type: 2}
+  wallTopLeftBottomRight: {fileID: 11400000, guid: de22f4b786d609945892dc362d02cba5, type: 2}
+  wallTopRightBottomLeft: {fileID: 11400000, guid: 4d0648cf9275eed4c881f650b4779f20, type: 2}
